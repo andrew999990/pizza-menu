@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnuf_JMhEVPNzJ7Nij_pe6Ju9l6dBf57yQ3w&s');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+}
+h1 {
+    text-align: center;
+    color: beige;
+    background-color: #555;
+    width: 30%;
+    margin: 20px auto;
+    border: 10px solid #201010;
+    padding: 10px;
+    border-radius: 5px;
+}
+#p-heading {
+    background-color: cornsilk;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    margin: 20px auto;
+    border-radius: 5px;
+
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:#333;    
+}
+legend {
+    text-align: center;
+    font-size: larger;
+    color: #fff;
+    font-weight: bold;
+    border: 1PX solid #432aa0;
+
+    padding: 5px;
+    background-color: #444;
+    border-radius: 5px;
+}
+label {
+    color: #ccc;
+    margin: 10px 0 10px;
+    display: block;
+
+}
+.heading-label {
+    font-weight: bold;
+}
+.pizzas{
+    text-align: left;
+}
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+#quantity {
+    width: 50px; 
+    padding: 5px;
+    text-align: center;
+}
+.pizzas-container {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.button-group {
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #555;
+}
